@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uk-accordion</title>
+    <link rel="stylesheet" href="../plugins/uikit3/css/uikit.min.css" type="text/css">
+    <!--<link rel="stylesheet" href="../plugins/uikit3/css/uikit-rtl.min.css" type="text/css">-->
+    <script type="application/javascript" src="../plugins/jquery.min.js"></script>
+    <script type="application/javascript" src="../plugins/jquery-migrate.min.js"></script>
+    <script type="application/javascript" src="../plugins/uikit3/js/uikit.min.js"></script>
+    <script type="application/javascript" src="../plugins/uikit3/js/uikit-icons.min.js"></script>
+</head>
+<body>
+<div>
+    <h1 class="uk-heading-bullet uk-heading-divider">自学-uk-accordion</h1>
+    <div class="uk-card uk-card-default">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title"><span>Usage</span></h3>
+        </div>
+        <div class="uk-card-body">
+            <ul uk-accordion>
+                <li class="uk-open">
+                    <a class="uk-accordion-title" href="#">Item 1</a>
+                    <div class="uk-accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 2</a>
+                    <div class="uk-accordion-content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 3</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-card-footer">
+            <a href="#" class="uk-button uk-button-text">Read more</a>
+        </div>
+    </div>
+    <hr class="uk-divider-icon">
+    <div class="uk-card uk-card-primary">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title"><span>No collapsing</span></h3>
+        </div>
+        <div class="uk-card-body">
+            <ul uk-accordion="collapsible: false">
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 1</a>
+                    <div class="uk-accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 2</a>
+                    <div class="uk-accordion-content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 3</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-card-footer">
+            <a href="#" class="uk-button uk-button-text">Read more</a>
+        </div>
+    </div>
+    <hr>
+    <div class="uk-card uk-card-secondary">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title"><span>Multiple open items</span></h3>
+        </div>
+        <div class="uk-card-body">
+            <ul uk-accordion="multiple: true">
+                <li class="uk-open">
+                    <a class="uk-accordion-title" href="#">Item 1</a>
+                    <div class="uk-accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 2</a>
+                    <div class="uk-accordion-content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Item 3</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-card-footer">
+            <a href="#" class="uk-button uk-button-text">Read more</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
